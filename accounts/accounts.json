@@ -1,971 +1,1349 @@
-{
-  "installments" :
-  [
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407423dc",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "1",
-      "dueDate" : "2024-10-01T03:00:00+03:00",
-      "lastPaidDate" : "2024-12-02T18:21:18+02:00",
-      "state" : "LATE",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1587.98,
-          "paid" : 162.35,
-          "due" : 1425.63
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 175,
-          "paid" : 175,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 8,
-          "paid" : 8,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 56.07,
-          "paid" : 54.65,
-          "due" : 1.42
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 3,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
-          "name" : "Draudimo mokestis (Planned)",
-          "id" : "226496303"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 3,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
-          "name" : "Sandorio Sudarymo Mokestis (Planned)",
-          "id" : "2104610236"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 2,
-            "paid" : 2,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
-          "name" : "Tvarkymo Mokestis (Planned)",
-          "id" : "1310824341"
-        }
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407423dd",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "2",
-      "dueDate" : "2024-11-01T02:00:00+02:00",
-      "state" : "LATE",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1681.2,
-          "paid" : 0,
-          "due" : 1681.2
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 81.78,
-          "paid" : 0,
-          "due" : 81.78
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 8,
-          "paid" : 0,
-          "due" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 28.4,
-          "paid" : 0,
-          "due" : 28.4
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 0,
-            "due" : 3,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
-          "name" : "Draudimo mokestis (Planned)",
-          "id" : "226496303"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 0,
-            "due" : 3,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
-          "name" : "Sandorio Sudarymo Mokestis (Planned)",
-          "id" : "2104610236"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 2,
-            "paid" : 0,
-            "due" : 2,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
-          "name" : "Tvarkymo Mokestis (Planned)",
-          "id" : "1310824341"
-        }
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407423de",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "3",
-      "dueDate" : "2024-12-01T02:00:00+02:00",
-      "state" : "LATE",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1642.24,
-          "paid" : 0,
-          "due" : 1642.24
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 121.06,
-          "paid" : 0,
-          "due" : 121.06
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 8,
-          "paid" : 0,
-          "due" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 0,
-            "due" : 3,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
-          "name" : "Draudimo mokestis (Planned)",
-          "id" : "226496303"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 3,
-            "paid" : 0,
-            "due" : 3,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
-          "name" : "Sandorio Sudarymo Mokestis (Planned)",
-          "id" : "2104610236"
-        },
-        {
-          "amount" :
-          {
-            "expected" : 2,
-            "paid" : 0,
-            "due" : 2,
-            "reduced" : 0
-          },
-          "tax" :
-          {
-            "expected" : 0,
-            "paid" : 0,
-            "due" : 0,
-            "reduced" : 0
-          },
-          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
-          "name" : "Tvarkymo Mokestis (Planned)",
-          "id" : "1310824341"
-        }
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407423df",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "4",
-      "dueDate" : "2025-01-01T02:00:00+02:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1654.09,
-          "paid" : 0,
-          "due" : 1654.09
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 108.89,
-          "paid" : 0,
-          "due" : 108.89
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407423e0",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "5",
-      "dueDate" : "2025-02-01T02:00:00+02:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1666.03,
-          "paid" : 0,
-          "due" : 1666.03
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 96.95,
-          "paid" : 0,
-          "due" : 96.95
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407a23e1",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "6",
-      "dueDate" : "2025-03-01T02:00:00+02:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1678.05,
-          "paid" : 0,
-          "due" : 1678.05
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 84.93,
-          "paid" : 0,
-          "due" : 84.93
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407a23e2",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "7",
-      "dueDate" : "2025-04-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1690.16,
-          "paid" : 0,
-          "due" : 1690.16
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 72.82,
-          "paid" : 0,
-          "due" : 72.82
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407a23e3",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "8",
-      "dueDate" : "2025-05-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1702.36,
-          "paid" : 0,
-          "due" : 1702.36
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 60.62,
-          "paid" : 0,
-          "due" : 60.62
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407a23e4",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "9",
-      "dueDate" : "2025-06-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1714.64,
-          "paid" : 0,
-          "due" : 1714.64
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 48.34,
-          "paid" : 0,
-          "due" : 48.34
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407a23e5",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "10",
-      "dueDate" : "2025-07-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1727.02,
-          "paid" : 0,
-          "due" : 1727.02
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 35.96,
-          "paid" : 0,
-          "due" : 35.96
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407c23e6",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "11",
-      "dueDate" : "2025-08-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1739.48,
-          "paid" : 0,
-          "due" : 1739.48
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 23.5,
-          "paid" : 0,
-          "due" : 23.5
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    },
-    {
-      "encodedKey" : "8a19b69e93873f26019387ae407c23e7",
-      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
-      "number" : "12",
-      "dueDate" : "2025-09-01T03:00:00+03:00",
-      "state" : "PENDING",
-      "isPaymentHoliday" : false,
-      "principal" :
-      {
-        "amount" :
-        {
-          "expected" : 1516.75,
-          "paid" : 0,
-          "due" : 1516.75
-        }
-      },
-      "interest" :
-      {
-        "amount" :
-        {
-          "expected" : 10.95,
-          "paid" : 0,
-          "due" : 10.95
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "fee" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0,
-          "expectedUnapplied" : 8
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "penalty" :
-      {
-        "amount" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        },
-        "tax" :
-        {
-          "expected" : 0,
-          "paid" : 0,
-          "due" : 0
-        }
-      },
-      "feeDetails" :
-      [
-      ]
-    }
-  ],
-  "currency" :
+[
   {
-    "currencyCode" : "EUR",
-    "code" : "EUR"
+    "encodedKey" : "8a19b67e90ba01670190bb39e971631d",
+    "id" : "500310",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-07-16T14:07:46+03:00",
+    "approvedDate" : "2024-07-16T14:14:14+03:00",
+    "lastModifiedDate" : "2024-12-02T15:07:19+02:00",
+    "activationTransactionKey" : "8a19dc8390b5e31d0190baa556a04d29",
+    "lastSetToArrearsDate" : "2023-12-11T00:00:00+02:00",
+    "closedDate" : "2024-12-02T15:07:19+02:00",
+    "lastLockedDate" : "2024-07-17T00:28:10+03:00",
+    "lastAccountAppraisalDate" : "2024-12-02T01:04:27+02:00",
+    "accountState" : "CLOSED",
+    "accountSubState" : "WRITTEN_OFF",
+    "productTypeKey" : "8a19b67e90ba01670190baa5818640bc",
+    "loanName" : "E-talonas_NT_3monthInterest",
+    "loanAmount" : 1000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-20T00:00:00+02:00",
+    "accruedInterest" : 0,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-07-10T00:00:00+03:00",
+    "accruedPenalty" : 62.45,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19b67e90ba01670190bb3a1d3b6325",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 0,
+      "principalPaid" : 0,
+      "principalBalance" : 0,
+      "interestDue" : 0,
+      "interestPaid" : 0,
+      "interestBalance" : 0,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 0,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 0,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19b67e90ba01670190bb39e971631e",
+      "expectedDisbursementDate" : "2023-11-20T00:00:00+02:00",
+      "disbursementDate" : "2023-11-20T00:00:00+02:00",
+      "firstRepaymentDate" : "2023-12-10T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19b67e90ba01670190bb3a1d3b6324",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 85.06,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 5,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19d90f90b5e34a0190bb670a7a7630",
+    "id" : "500311",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-07-16T15:02:38+03:00",
+    "approvedDate" : "2024-07-16T15:02:57+03:00",
+    "lastModifiedDate" : "2024-11-11T00:21:22+02:00",
+    "activationTransactionKey" : "8a19b67e90ba01670190bb671e28740f",
+    "lastSetToArrearsDate" : "2023-12-11T00:00:00+02:00",
+    "lastLockedDate" : "2024-07-17T00:28:47+03:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:50:13+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "accountSubState" : "LOCKED",
+    "productTypeKey" : "8a19b67e90ba01670190baa5818640bc",
+    "loanName" : "E-talonas_NT_3monthInterest",
+    "loanAmount" : 1000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-20T00:00:00+02:00",
+    "accruedInterest" : 5.17,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-07-10T00:00:00+03:00",
+    "accruedPenalty" : 64.61,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19d90f90b5e34a0190bb6c585f77af",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 1000,
+      "principalPaid" : 0,
+      "principalBalance" : 1000,
+      "interestDue" : 31.34,
+      "interestPaid" : 0,
+      "interestBalance" : 31.34,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 39.28,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 39.28,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19d90f90b5e34a0190bb670a7a7631",
+      "expectedDisbursementDate" : "2023-11-20T00:00:00+02:00",
+      "disbursementDate" : "2023-11-20T00:00:00+02:00",
+      "firstRepaymentDate" : "2023-12-10T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19d90f90b5e34a0190bb670a7a7632",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 85.06,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 5,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19dc8390b5e31d0190bb9da023173a",
+    "id" : "500312",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-07-16T15:56:27+03:00",
+    "approvedDate" : "2024-07-16T15:56:36+03:00",
+    "lastModifiedDate" : "2024-12-11T00:22:55+02:00",
+    "activationTransactionKey" : "8a19ce7690b5e31e0190bb9dd0ed123f",
+    "lastSetToArrearsDate" : "2024-01-11T00:00:00+02:00",
+    "lastLockedDate" : "2024-07-17T00:28:12+03:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:50:27+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "accountSubState" : "LOCKED",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 1000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-20T00:00:00+02:00",
+    "accruedInterest" : 10.14,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-07-10T00:00:00+03:00",
+    "accruedPenalty" : 58.73,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19dc8390b5e31d0190bb9da023173d",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 1000,
+      "principalPaid" : 0,
+      "principalBalance" : 1000,
+      "interestDue" : 36.85,
+      "interestPaid" : 0,
+      "interestBalance" : 36.85,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 29.81,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 29.81,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19dc8390b5e31d0190bb9da023173b",
+      "expectedDisbursementDate" : "2023-11-20T00:00:00+02:00",
+      "disbursementDate" : "2023-11-20T00:00:00+02:00",
+      "firstRepaymentDate" : "2024-01-10T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19dc8390b5e31d0190bb9da023173c",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 85.34,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19ce7690b5e31e0190bba0d8f112e9",
+    "id" : "500313",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-07-16T15:59:59+03:00",
+    "approvedDate" : "2024-07-16T16:00:13+03:00",
+    "lastModifiedDate" : "2024-11-27T00:30:12+02:00",
+    "activationTransactionKey" : "8a19dc8390b5e31d0190bb9da0f01751",
+    "lastSetToArrearsDate" : "2024-01-21T00:00:00+02:00",
+    "lastLockedDate" : "2024-11-27T00:30:13+02:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:49:39+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "accountSubState" : "LOCKED",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 1000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-25T00:00:00+02:00",
+    "accruedInterest" : 0.33,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-11-26T14:55:59+02:00",
+    "accruedPenalty" : 7.2,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19ce7690b5e31e0190bba0d8f112ec",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 1000,
+      "principalPaid" : 0,
+      "principalBalance" : 1000,
+      "interestDue" : 47.71,
+      "interestPaid" : 0,
+      "interestBalance" : 47.71,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 76.57,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 76.57,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19ce7690b5e31e0190bba0d8f112ea",
+      "expectedDisbursementDate" : "2023-11-25T00:00:00+02:00",
+      "disbursementDate" : "2023-11-25T00:00:00+02:00",
+      "firstRepaymentDate" : "2024-01-20T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19ce7690b5e31e0190bba0d8f112eb",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 85.39,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19b94390b5e2bd0190bf6014a87d5e",
+    "id" : "500315",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-07-17T10:48:15+03:00",
+    "approvedDate" : "2024-07-17T11:18:09+03:00",
+    "lastModifiedDate" : "2024-12-02T15:04:44+02:00",
+    "activationTransactionKey" : "8a19dc8390b5e31d0190bfaf482f6667",
+    "closedDate" : "2024-12-02T15:04:44+02:00",
+    "lastAccountAppraisalDate" : "2024-12-02T01:09:57+02:00",
+    "accountState" : "CLOSED",
+    "accountSubState" : "REPAID",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 35000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-05T00:00:00+02:00",
+    "accruedInterest" : 0,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-02T15:04:37+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19b94390b5e2bd0190bfa9d1a84bcc",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 0,
+      "principalPaid" : 35000,
+      "principalBalance" : 0,
+      "interestDue" : 0,
+      "interestPaid" : 1575.83,
+      "interestBalance" : 0,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 0,
+      "penaltyPaid" : 135.53,
+      "penaltyBalance" : 0,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19b94390b5e2bd0190bfa9d1a84bca",
+      "expectedDisbursementDate" : "2024-06-05T00:00:00+03:00",
+      "disbursementDate" : "2024-06-05T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-07-05T00:00:00+03:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19b94390b5e2bd0190bfa9d1a84bcb",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 80,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 610.19,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19dcaf9360e0010193627b885c392d",
+    "id" : "500372",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-11-25T11:45:44+02:00",
+    "approvedDate" : "2024-11-25T11:45:55+02:00",
+    "lastModifiedDate" : "2024-12-12T00:51:55+02:00",
+    "activationTransactionKey" : "8a19aaea9361df02019362b6d95750a5",
+    "lastSetToArrearsDate" : "2024-06-02T00:00:00+03:00",
+    "lastLockedDate" : "2024-12-12T00:51:55+02:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:51:55+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "accountSubState" : "LOCKED",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 2000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-12-01T00:00:00+02:00",
+    "accruedInterest" : 0.2,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-11T15:57:14+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19dcaf9360e001019362b671d8530c",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 2000,
+      "principalPaid" : 0,
+      "principalBalance" : 2000,
+      "interestDue" : 79.82,
+      "interestPaid" : 0,
+      "interestBalance" : 79.82,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 20,
+      "feesPaid" : 0,
+      "feesBalance" : 20,
+      "penaltyDue" : 62.64,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 62.64,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19dcaf9360e0010193627b885c392e",
+      "expectedDisbursementDate" : "2024-05-01T00:00:00+03:00",
+      "disbursementDate" : "2024-05-01T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-06-01T00:00:00+03:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19dcaf9360e0010193627b885c392f",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 172.14,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19c5579360279a0193636045d535f1",
+    "id" : "500375",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-11-25T15:48:13+02:00",
+    "approvedDate" : "2024-11-25T15:48:24+02:00",
+    "lastModifiedDate" : "2024-12-02T01:08:09+02:00",
+    "activationTransactionKey" : "8a19c4199360ab0001936394a7665e01",
+    "lastSetToArrearsDate" : "2024-06-02T00:00:00+03:00",
+    "lastLockedDate" : "2024-11-28T00:41:36+02:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:50:21+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "accountSubState" : "LOCKED",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 10000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-12-01T00:00:00+02:00",
+    "accruedInterest" : 48.18,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-11-01T00:00:00+02:00",
+    "accruedPenalty" : 41.49,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19c5579360279a0193639472e24f2b",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 10000,
+      "principalPaid" : 0,
+      "principalBalance" : 10000,
+      "interestDue" : 351.96,
+      "interestPaid" : 0,
+      "interestBalance" : 351.96,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 60,
+      "feesPaid" : 0,
+      "feesBalance" : 60,
+      "penaltyDue" : 271.52,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 271.52,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19c5579360279a0193639472e24f29",
+      "expectedDisbursementDate" : "2024-05-01T00:00:00+03:00",
+      "disbursementDate" : "2024-05-01T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-06-01T00:00:00+03:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19c5579360279a0193639472e24f2a",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 860.67,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19dcaf9360e0010193636fb78545de",
+    "id" : "500376",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-11-25T16:06:08+02:00",
+    "approvedDate" : "2024-11-25T16:06:27+02:00",
+    "lastModifiedDate" : "2024-12-01T00:52:21+02:00",
+    "activationTransactionKey" : "8a19aaea9361df02019363671ada2fb9",
+    "lastAccountAppraisalDate" : "2024-12-12T00:53:20+02:00",
+    "accountState" : "ACTIVE",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 10000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-12-01T00:00:00+02:00",
+    "accruedInterest" : 7.4,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-01T00:00:00+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19dcaf9360e0010193636fb78545e1",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 0,
+      "principalPaid" : 7202.51,
+      "principalBalance" : 2797.49,
+      "interestDue" : 0,
+      "interestPaid" : 315.45,
+      "interestBalance" : 3.36,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 48,
+      "feesBalance" : 10,
+      "penaltyDue" : 0,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 0,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19dcaf9360e0010193636fb78545df",
+      "expectedDisbursementDate" : "2024-07-01T00:00:00+03:00",
+      "disbursementDate" : "2024-07-01T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-08-01T00:00:00+03:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19dcaf9360e0010193636fb78545e0",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 881.49,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19ab5e9373121901937326fcda01f0",
+    "id" : "500379",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-11-28T16:22:48+02:00",
+    "approvedDate" : "2024-11-28T17:00:52+02:00",
+    "lastModifiedDate" : "2024-12-12T00:44:59+02:00",
+    "activationTransactionKey" : "8a19c9779372d8910193734fbe332413",
+    "lastSetToArrearsDate" : "2024-12-02T00:00:00+02:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:44:59+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "productTypeKey" : "8a19bf1393730ca80193731c72ca016d",
+    "loanName" : "E-talonas_NT_3monthInterest2_FeesTest",
+    "loanAmount" : 10000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-11-30T00:00:00+02:00",
+    "accruedInterest" : 24.5,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-01T00:00:00+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19ab5e93731219019373272f2901f4",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 742.52,
+      "principalPaid" : 0,
+      "principalBalance" : 10000,
+      "interestDue" : 118.99,
+      "interestPaid" : 0,
+      "interestBalance" : 118.99,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 1010,
+      "feesPaid" : 0,
+      "feesBalance" : 1120,
+      "penaltyDue" : 4.73,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 4.73,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19ab5e9373121901937326fcda01f1",
+      "expectedDisbursementDate" : "2024-09-30T00:00:00+03:00",
+      "disbursementDate" : "2024-09-30T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-12-01T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19ab5e9373121901937326fcda01f2",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+        {
+          "encodedKey" : "8a19bf1393730ca8019373426ab50631",
+          "predefinedFeeEncodedKey" : "8a19bf1393730ca80193731c72db0176"
+        }
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 861.51,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19bf1393730ca8019373465bd2069d",
+    "id" : "500380",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-11-28T17:43:01+02:00",
+    "approvedDate" : "2024-11-28T17:45:00+02:00",
+    "lastModifiedDate" : "2024-12-12T00:46:10+02:00",
+    "activationTransactionKey" : "8a19deb5937308430193732d37410376",
+    "lastSetToArrearsDate" : "2024-12-02T00:00:00+02:00",
+    "lastAccountAppraisalDate" : "2024-12-12T00:46:11+02:00",
+    "accountState" : "ACTIVE_IN_ARREARS",
+    "productTypeKey" : "8a19bf1393730ca80193731c72ca016d",
+    "loanName" : "E-talonas_NT_3monthInterest2_FeesTest",
+    "loanAmount" : 10000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-12-01T00:00:00+02:00",
+    "accruedInterest" : 24.49,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-01T00:00:00+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19bf1393730ca801937370a1bd0a88",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 744.8,
+      "principalPaid" : 0,
+      "principalBalance" : 10000,
+      "interestDue" : 116.58,
+      "interestPaid" : 0,
+      "interestBalance" : 116.58,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 0,
+      "feesBalance" : 0,
+      "penaltyDue" : 4.73,
+      "penaltyPaid" : 0,
+      "penaltyBalance" : 4.73,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19bf1393730ca8019373465bd2069e",
+      "expectedDisbursementDate" : "2024-10-01T00:00:00+03:00",
+      "disbursementDate" : "2024-10-01T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-12-01T00:00:00+02:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19bf1393730ca801937370a1bd0a87",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 861.38,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
+  },
+  {
+    "encodedKey" : "8a19b69e93873f26019387ae3fda23d7",
+    "id" : "500381",
+    "accountHolderType" : "CLIENT",
+    "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+    "creationDate" : "2024-12-02T16:02:44+02:00",
+    "approvedDate" : "2024-12-02T16:02:51+02:00",
+    "lastModifiedDate" : "2024-12-04T14:13:21+02:00",
+    "activationTransactionKey" : "8a19bc599385c6fa01938714cfd5783a",
+    "lastAccountAppraisalDate" : "2024-12-12T00:44:45+02:00",
+    "accountState" : "ACTIVE",
+    "productTypeKey" : "8a19b94390b5e2bd0190bb94e647101a",
+    "loanName" : "E-talonas_NT_3monthInterest2",
+    "loanAmount" : 20000,
+    "paymentMethod" : "HORIZONTAL",
+    "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241279",
+    "notes" : "",
+    "lastInterestReviewDate" : "2024-12-01T00:00:00+02:00",
+    "accruedInterest" : 39.61,
+    "interestFromArrearsAccrued" : 0,
+    "lastInterestAppliedDate" : "2024-12-01T00:00:00+02:00",
+    "accruedPenalty" : 0,
+    "allowOffset" : false,
+    "arrearsTolerancePeriod" : 0,
+    "accountArrearsSettings" :
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae3fda23da",
+      "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+      "dateCalculationMethod" : "LAST_LATE_REPAYMENT",
+      "nonWorkingDaysMethod" : "INCLUDED",
+      "tolerancePeriod" : 0
+    },
+    "latePaymentsRecalculationMethod" : "LAST_INSTALLMENT_INCREASE",
+    "balances" :
+    {
+      "redrawBalance" : 0,
+      "principalDue" : 0,
+      "principalPaid" : 4911.42,
+      "principalBalance" : 15088.58,
+      "interestDue" : 0,
+      "interestPaid" : 377.84,
+      "interestBalance" : 0,
+      "interestFromArrearsBalance" : 0,
+      "interestFromArrearsDue" : 0,
+      "interestFromArrearsPaid" : 0,
+      "feesDue" : 0,
+      "feesPaid" : 24,
+      "feesBalance" : 0,
+      "penaltyDue" : 0,
+      "penaltyPaid" : 84.47,
+      "penaltyBalance" : 0,
+      "holdBalance" : 0
+    },
+    "disbursementDetails" :
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae3fda23d8",
+      "expectedDisbursementDate" : "2024-09-01T00:00:00+03:00",
+      "disbursementDate" : "2024-09-01T00:00:00+03:00",
+      "firstRepaymentDate" : "2024-10-01T00:00:00+03:00",
+      "transactionDetails" :
+      {
+        "encodedKey" : "8a19b69e93873f26019387ae3fda23d9",
+        "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "internalTransfer" : false
+      },
+      "fees" :
+      [
+      ]
+    },
+    "prepaymentSettings" :
+    {
+      "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+      "elementsRecalculationMethod" : "TOTAL_EXPECTED_FIXED",
+      "principalPaidInstallmentStatus" : "PAID",
+      "applyInterestOnPrepaymentMethod" : "AUTOMATIC"
+    },
+    "penaltySettings" :
+    {
+      "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+      "penaltyRate" : 0.05
+    },
+    "scheduleSettings" :
+    {
+      "hasCustomSchedule" : false,
+      "defaultFirstRepaymentDueDateOffset" : 30,
+      "principalRepaymentInterval" : 1,
+      "gracePeriod" : 0,
+      "gracePeriodType" : "NONE",
+      "repaymentInstallments" : 12,
+      "repaymentPeriodCount" : 1,
+      "scheduleDueDatesMethod" : "INTERVAL",
+      "periodicPayment" : 1762.98,
+      "repaymentPeriodUnit" : "MONTHS",
+      "repaymentScheduleMethod" : "DYNAMIC",
+      "paymentPlan" :
+      [
+      ]
+    },
+    "interestSettings" :
+    {
+      "interestRateReviewCount" : 1,
+      "interestRateReviewUnit" : "MONTHS",
+      "interestRateSource" : "INDEX_INTEREST_RATE",
+      "accrueInterestAfterMaturity" : false,
+      "interestApplicationMethod" : "REPAYMENT_DUE_DATE",
+      "interestBalanceCalculationMethod" : "ONLY_PRINCIPAL",
+      "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+      "interestChargeFrequency" : "ANNUALIZED",
+      "interestSpread" : 2,
+      "interestRate" : 8.66,
+      "interestType" : "SIMPLE_INTEREST",
+      "accrueLateInterest" : false
+    },
+    "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+    "currency" :
+    {
+      "currencyCode" : "EUR",
+      "code" : "EUR"
+    }
   }
-}
+]
