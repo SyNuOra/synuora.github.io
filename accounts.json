@@ -1,0 +1,971 @@
+{
+  "installments" :
+  [
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407423dc",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "1",
+      "dueDate" : "2024-10-01T03:00:00+03:00",
+      "lastPaidDate" : "2024-12-02T18:21:18+02:00",
+      "state" : "LATE",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1587.98,
+          "paid" : 162.35,
+          "due" : 1425.63
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 175,
+          "paid" : 175,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 8,
+          "paid" : 8,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 56.07,
+          "paid" : 54.65,
+          "due" : 1.42
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 3,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
+          "name" : "Draudimo mokestis (Planned)",
+          "id" : "226496303"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 3,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
+          "name" : "Sandorio Sudarymo Mokestis (Planned)",
+          "id" : "2104610236"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 2,
+            "paid" : 2,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
+          "name" : "Tvarkymo Mokestis (Planned)",
+          "id" : "1310824341"
+        }
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407423dd",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "2",
+      "dueDate" : "2024-11-01T02:00:00+02:00",
+      "state" : "LATE",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1681.2,
+          "paid" : 0,
+          "due" : 1681.2
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 81.78,
+          "paid" : 0,
+          "due" : 81.78
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 8,
+          "paid" : 0,
+          "due" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 28.4,
+          "paid" : 0,
+          "due" : 28.4
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 0,
+            "due" : 3,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
+          "name" : "Draudimo mokestis (Planned)",
+          "id" : "226496303"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 0,
+            "due" : 3,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
+          "name" : "Sandorio Sudarymo Mokestis (Planned)",
+          "id" : "2104610236"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 2,
+            "paid" : 0,
+            "due" : 2,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
+          "name" : "Tvarkymo Mokestis (Planned)",
+          "id" : "1310824341"
+        }
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407423de",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "3",
+      "dueDate" : "2024-12-01T02:00:00+02:00",
+      "state" : "LATE",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1642.24,
+          "paid" : 0,
+          "due" : 1642.24
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 121.06,
+          "paid" : 0,
+          "due" : 121.06
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 8,
+          "paid" : 0,
+          "due" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 0,
+            "due" : 3,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1087",
+          "name" : "Draudimo mokestis (Planned)",
+          "id" : "226496303"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 3,
+            "paid" : 0,
+            "due" : 3,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1088",
+          "name" : "Sandorio Sudarymo Mokestis (Planned)",
+          "id" : "2104610236"
+        },
+        {
+          "amount" :
+          {
+            "expected" : 2,
+            "paid" : 0,
+            "due" : 2,
+            "reduced" : 0
+          },
+          "tax" :
+          {
+            "expected" : 0,
+            "paid" : 0,
+            "due" : 0,
+            "reduced" : 0
+          },
+          "encodedKey" : "8a19b94390b5e2bd0190bb9894dd1089",
+          "name" : "Tvarkymo Mokestis (Planned)",
+          "id" : "1310824341"
+        }
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407423df",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "4",
+      "dueDate" : "2025-01-01T02:00:00+02:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1654.09,
+          "paid" : 0,
+          "due" : 1654.09
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 108.89,
+          "paid" : 0,
+          "due" : 108.89
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407423e0",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "5",
+      "dueDate" : "2025-02-01T02:00:00+02:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1666.03,
+          "paid" : 0,
+          "due" : 1666.03
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 96.95,
+          "paid" : 0,
+          "due" : 96.95
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407a23e1",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "6",
+      "dueDate" : "2025-03-01T02:00:00+02:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1678.05,
+          "paid" : 0,
+          "due" : 1678.05
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 84.93,
+          "paid" : 0,
+          "due" : 84.93
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407a23e2",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "7",
+      "dueDate" : "2025-04-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1690.16,
+          "paid" : 0,
+          "due" : 1690.16
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 72.82,
+          "paid" : 0,
+          "due" : 72.82
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407a23e3",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "8",
+      "dueDate" : "2025-05-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1702.36,
+          "paid" : 0,
+          "due" : 1702.36
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 60.62,
+          "paid" : 0,
+          "due" : 60.62
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407a23e4",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "9",
+      "dueDate" : "2025-06-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1714.64,
+          "paid" : 0,
+          "due" : 1714.64
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 48.34,
+          "paid" : 0,
+          "due" : 48.34
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407a23e5",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "10",
+      "dueDate" : "2025-07-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1727.02,
+          "paid" : 0,
+          "due" : 1727.02
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 35.96,
+          "paid" : 0,
+          "due" : 35.96
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407c23e6",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "11",
+      "dueDate" : "2025-08-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1739.48,
+          "paid" : 0,
+          "due" : 1739.48
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 23.5,
+          "paid" : 0,
+          "due" : 23.5
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    },
+    {
+      "encodedKey" : "8a19b69e93873f26019387ae407c23e7",
+      "parentAccountKey" : "8a19b69e93873f26019387ae3fda23d7",
+      "number" : "12",
+      "dueDate" : "2025-09-01T03:00:00+03:00",
+      "state" : "PENDING",
+      "isPaymentHoliday" : false,
+      "principal" :
+      {
+        "amount" :
+        {
+          "expected" : 1516.75,
+          "paid" : 0,
+          "due" : 1516.75
+        }
+      },
+      "interest" :
+      {
+        "amount" :
+        {
+          "expected" : 10.95,
+          "paid" : 0,
+          "due" : 10.95
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "fee" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0,
+          "expectedUnapplied" : 8
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "penalty" :
+      {
+        "amount" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        },
+        "tax" :
+        {
+          "expected" : 0,
+          "paid" : 0,
+          "due" : 0
+        }
+      },
+      "feeDetails" :
+      [
+      ]
+    }
+  ],
+  "currency" :
+  {
+    "currencyCode" : "EUR",
+    "code" : "EUR"
+  }
+}
