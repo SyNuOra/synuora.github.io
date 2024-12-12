@@ -1,5 +1,5 @@
 async function listFiles() {
-    const repo = 'stevemuench/stevemuench.github.io'; // Replace with your GitHub username and repository name
+    const repo = 'synuora/synuora.github.io'; // Replace with your GitHub username and repository name
     const branch = 'main'; // Replace with your default branch if different
     const apiURL = `https://api.github.com/repos/${repo}/git/trees/${branch}?recursive=1`;
 
