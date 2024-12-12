@@ -1,0 +1,164 @@
+{
+  "encodedKey" : "8a19b67e90ba01670190bb39e971631d",
+  "id" : "500312",
+  "accountHolderKey" : "8a19a6e990b5e3340190bb31adda702f",
+  "accountHolderType" : "CLIENT",
+  "creationDate" : "2024-07-16T11:07:46+0000",
+  "approvedDate" : "2024-07-16T14:14:14+0000",
+  "lastModifiedDate" : "2024-12-02T13:07:19+0000",
+  "activationTransactionKey" : "8a19dc8390b5e31d0190baa556a04d29",
+  "lastSetToArrearsDate" : "2023-12-11T00:00:00+0000",
+  "closedDate" : "2024-12-02T15:07:19+0000",
+  "lastLockedDate" : "2024-07-17T00:28:10+0000",
+  "lastAccountAppraisalDate" : "2024-12-02T01:04:27+0000",
+  "accountState" : "CLOSED_WRITTEN_OFF",
+  "accountSubState" : "LOCKED",
+  "productTypeKey" : "8a19b67e90ba01670190baa5818640bc",
+  "loanName" : "E-talonas_NT_3monthInterest",
+  "loanAmount" : "1000",
+  "periodicPayment" : "85.06",
+  "tranches" :
+  [
+  ],
+  "principalDue" : "0",
+  "principalPaid" : "0",
+  "principalBalance" : "0",
+  "redrawBalance" : "0",
+  "interestDue" : "0",
+  "interestPaid" : "0",
+  "interestFromArrearsBalance" : "0",
+  "interestFromArrearsDue" : "0",
+  "interestFromArrearsPaid" : "0",
+  "interestBalance" : "0",
+  "feesDue" : "0",
+  "feesPaid" : "0",
+  "feesBalance" : "0",
+  "penaltyDue" : "0",
+  "penaltyPaid" : "0",
+  "penaltyBalance" : "0",
+  "scheduleDueDatesMethod" : "INTERVAL",
+  "prepaymentAcceptance" : "ACCEPT_PREPAYMENTS",
+  "futurePaymentsAcceptance" : "NO_FUTURE_PAYMENTS",
+  "hasCustomSchedule" : false,
+  "repaymentPeriodCount" : 1,
+  "repaymentPeriodUnit" : "MONTHS",
+  "repaymentInstallments" : 12,
+  "gracePeriod" : 0,
+  "gracePeriodType" : "NONE",
+  "interestRate" : "5",
+  "interestChargeFrequency" : "ANNUALIZED",
+  "interestCalculationMethod" : "DECLINING_BALANCE_DISCOUNTED",
+  "interestType" : "SIMPLE_INTEREST",
+  "interestBalanceCalculationMethod" : "PRINCIPAL_ONLY",
+  "repaymentScheduleMethod" : "DYNAMIC",
+  "paymentMethod" : "HORIZONTAL",
+  "interestApplicationMethod" : "ON_REPAYMENT",
+  "accrueInterestAfterMaturity" : false,
+  "assignedBranchKey" : "8a19261d71ea2b3a0171eea385241276",
+  "notes" : "",
+  "principalRepaymentInterval" : 1,
+  "interestRateSource" : "INDEX_INTEREST_RATE",
+  "interestRateReviewUnit" : "MONTHS",
+  "interestRateReviewCount" : 1,
+  "interestSpread" : "2",
+  "lastInterestReviewDate" : "2024-11-20T00:00:00+0000",
+  "accruedInterest" : "0",
+  "interestFromArrearsAccrued" : "0",
+  "lastInterestAppliedDate" : "2024-07-10T00:00:00+0000",
+  "funds" :
+  [
+  ],
+  "guarantees" :
+  [
+  ],
+  "accruedPenalty" : "62.45",
+  "penaltyRate" : "0.05",
+  "loanPenaltyCalculationMethod" : "OVERDUE_BALANCE_AND_INTEREST",
+  "defaultFirstRepaymentDueDateOffset" : 30,
+  "disbursementDetails" :
+  {
+    "encodedKey" : "8a19b67e90ba01670190bb39e971631e",
+    "expectedDisbursementDate" : "2023-11-20T00:00:00+0000",
+    "disbursementDate" : "2023-11-20T00:00:00+0000",
+    "firstRepaymentDate" : "2023-12-10T00:00:00+0000",
+    "transactionDetails" :
+    {
+      "encodedKey" : "8a19b67e90ba01670190bb3a1d3b6324",
+      "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963",
+      "internalTransfer" : false,
+      "transactionChannel" :
+      {
+        "encodedKey" : "8a818e5e6dfe8318016e019878fc0963",
+        "id" : "_payments_sepa_",
+        "name" : "SEPA-Centrolink",
+        "creationDate" : "2019-10-25T09:26:42+0000",
+        "index" : 0,
+        "activated" : true,
+        "savingsConstraintsUsage" : "UNCONSTRAINED_USAGE",
+        "savingsConstraints" :
+        {
+          "encodedKey" : "8a818e5e6dfe8318016e019882140965",
+          "filterConstraints" :
+          [
+          ]
+        },
+        "usageRights" :
+        {
+          "encodedKey" : "8a818e5e6dfe8318016e019878fc0964",
+          "isAccessibleByAllUsers" : false,
+          "roles" :
+          [
+            "8a19265070693b1501707de3287506c4",
+            "8a192272700bee9f01700c8945f80019",
+            "8a19265070693b15017095897cf00f01"
+          ]
+        },
+        "transactionChannelAccountingRule" :
+        {
+          "encodedKey" : "8a1932a36fa900e3016faf7d79f703ad",
+          "financialResource" : "FUND_SOURCE",
+          "account" :
+          {
+            "encodedKey" : "8a1947f96fa8f910016fa949492b0074",
+            "creationDate" : "2020-01-15T13:00:47+0000",
+            "lastModifiedDate" : "2020-02-14T14:08:27+0000",
+            "glCode" : "270100",
+            "type" : "ASSET",
+            "usage" : "DETAIL",
+            "name" : "CENTROLink amounts",
+            "activated" : true,
+            "description" : "4e9800998ecf8427e",
+            "allowManualJournalEntries" : true,
+            "stripTrailingZeros" : true
+          },
+          "index" : 0,
+          "transactionChannelKey" : "8a818e5e6dfe8318016e019878fc0963"
+        }
+      }
+    },
+    "fees" :
+    [
+    ]
+  },
+  "arrearsTolerancePeriod" : 0,
+  "accountArrearsSettings" :
+  {
+    "tolerancePeriod" : 0,
+    "encodedKey" : "8a19b67e90ba01670190bb3a1d3b6325",
+    "toleranceCalculationMethod" : "ARREARS_TOLERANCE_PERIOD",
+    "dateCalculationMethod" : "DATE_OF_LAST_LATE_REPAYMENT",
+    "nonWorkingDaysMethod" : "INCLUDED"
+  },
+  "paymentPlan" :
+  [
+  ],
+  "interestRoundingVersion" : "VERSION_3",
+  "prepaymentRecalculationMethod" : "REDUCE_NUMBER_OF_INSTALLMENTS_NEW",
+  "principalPaidInstallmentStatus" : "PAID",
+  "latePaymentsRecalculationMethod" : "INCREASE_LAST_INSTALLMENT",
+  "elementsRecalculationMethod" : "FIXED_TOTAL_EXPECTED",
+  "applyInterestOnPrepaymentMethod" : "AUTOMATIC",
+  "allowOffset" : false,
+  "accrueLateInterest" : false,
+  "holdBalance" : "0"
+}
