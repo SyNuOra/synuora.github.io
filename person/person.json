@@ -1,0 +1,19 @@
+{
+  "Person" :
+  {
+    "CustomerReferenceId" : "0000001",
+    "SSN" :
+    {
+      "Type" : "Custom",
+      "Value" : "123456789"
+    },
+    "FirstName" : "Name,
+    "LastName" : "Surname",
+    "PEP" : false,
+    "RCA" : false,
+    "Sanction" : true,
+    "RiskScore" : "150",
+    "RiskGroup" : "Aukšta rizika"
+  },
+  "ErrorMessage" : null
+}
