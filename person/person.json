@@ -7,7 +7,7 @@
       "Type" : "Custom",
       "Value" : "123456789"
     },
-    "FirstName" : "Name,
+    "FirstName" : "Name",
     "LastName" : "Surname",
     "PEP" : false,
     "RCA" : false,
